@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "93+8TEppIs67uB0Zj4Eb0K1Fn7Kf2q9U2haLTCqfpujcjTmVNNxFoFa1tD7chOuPC/u1t2bbJOAtRcl+b/y95Q==",
+  "success": true,
+  "projectFilePath": "D:\\HARSH\\HelloWorld\\HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Avinash Singh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Avinash Singh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Avinash Singh\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
