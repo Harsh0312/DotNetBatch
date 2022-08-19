@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+       <p> <AppChild name="Matt" /></p>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -21,5 +22,12 @@ function App() {
     </div>
   );
 }
+
+function AppChild(props){
+  return <span>
+      My name is {props.name}
+    </span>
+}
+//ReactDOM.render(<App />, document.getElementById('app'));
 
 export default App;
