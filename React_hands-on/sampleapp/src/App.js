@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Cycle from './Cycle';
+import './Cycle1.css';
 
 function App() {
   return (

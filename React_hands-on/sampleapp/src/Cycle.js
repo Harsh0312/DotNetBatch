@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-
+import React, { Component } from 'react';
+import './Cycle1.css'
 export class Cycle extends Component {
     constructor(props){
         super(props)
