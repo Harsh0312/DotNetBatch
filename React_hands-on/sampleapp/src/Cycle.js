@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Cycle1.css'
-export class Cycle extends Component {
+import Vehicle from './Vehicle';
+export class Cycle extends Vehicle {
     constructor(props){
         super(props)
         this.state={Wheel:"2"}
