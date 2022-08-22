@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Avinash Singh\\.nuget\\packages\\": {},
+    "C:\\Users\\harsh.singh\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HARSH\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "C:\\Users\\harsh.singh\\Documents\\GitHub\\DotNetBatch\\Winforms\\HelloWorld\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "D:\\HARSH\\HelloWorld\\HelloWorld.csproj",
-      "packagesPath": "C:\\Users\\Avinash Singh\\.nuget\\packages\\",
-      "outputPath": "D:\\HARSH\\HelloWorld\\obj\\",
+      "projectPath": "C:\\Users\\harsh.singh\\Documents\\GitHub\\DotNetBatch\\Winforms\\HelloWorld\\HelloWorld.csproj",
+      "packagesPath": "C:\\Users\\harsh.singh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\harsh.singh\\Documents\\GitHub\\DotNetBatch\\Winforms\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Avinash Singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\harsh.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -66,6 +66,10 @@
             "version": "[3.1.10, 3.1.10]"
           },
           {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.27, 3.1.27]"
+          },
+          {
             "name": "Microsoft.NETCore.App.Ref",
             "version": "[3.1.0, 3.1.0]"
           },
@@ -82,7 +86,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.216\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

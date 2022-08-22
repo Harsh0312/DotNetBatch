@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "93+8TEppIs67uB0Zj4Eb0K1Fn7Kf2q9U2haLTCqfpujcjTmVNNxFoFa1tD7chOuPC/u1t2bbJOAtRcl+b/y95Q==",
+  "dgSpecHash": "SFB6v8OHuG7qrnIDN0CNh2+KvdWYQlAy7g3Ty9ps5IIt2LSnCIu92Px0cSKmKIQxUlX05uBLx7/SBCsTv9SXhA==",
   "success": true,
-  "projectFilePath": "D:\\HARSH\\HelloWorld\\HelloWorld.csproj",
+  "projectFilePath": "C:\\Users\\harsh.singh\\Documents\\GitHub\\DotNetBatch\\Winforms\\HelloWorld\\HelloWorld.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Avinash Singh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Avinash Singh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Avinash Singh\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\harsh.singh\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\harsh.singh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\harsh.singh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\harsh.singh\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.27\\microsoft.netcore.app.host.win-x64.3.1.27.nupkg.sha512"
   ],
   "logs": []
 }
