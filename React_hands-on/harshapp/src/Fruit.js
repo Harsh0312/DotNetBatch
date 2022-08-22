@@ -1,10 +1,8 @@
 import React from 'react';
-class Car extends React.component{
+class Fruit extends React.Component{
     constructor(props){
         super(props);
-            this.state={brand:"Naturals"};
-            this.state={Color:"Yellow"}
-            this.state={type:"Mango"}
+            this.state={brand:"Naturals",Color:"Yellow",type:"Mango"};     
         }
     
         render()
@@ -18,4 +16,4 @@ class Car extends React.component{
             
         }
 }
-export default Car;
+export default Fruit;
