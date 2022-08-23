@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+//import { Provider } from 'react-redux'
 import './Cycle1.css'
 import Vehicle from './Vehicle';
 export class Cycle extends Vehicle {
