@@ -4,4 +4,9 @@ const Speed= ({speed}) =>{
         <p>The speed is {speed}</p>
     );
 }
-export default Speed;
+ function Engine({name}){
+    return(
+        <h1>Engine {name}</h1>
+    );
+}
+export  {Speed,Engine};

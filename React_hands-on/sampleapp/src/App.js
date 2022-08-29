@@ -3,7 +3,8 @@ import './App.css';
 import Cycle from './Cycle';
 import './Cycle1.css';
 import Vehicle from './Vehicle';
-import Speed from './Speed';
+import {Speed} from './Speed';
+import { Engine } from './Speed';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
           <Cycle/>
           <Speed speed={5}/>
+          <Engine name={"Yes"}/>
         </p>
         <a
           className="App-link"
