@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Laptop>
+@{
+    ViewData["Title"] = "Laptop";
+}
+
+<h1>Laptop</h1>
+@foreach (var obj in Model)
+{
+    <div class="col-lg-4 mb-3">
+        <div class="card">
+            <img class="card-img-top" src="@obj.path" alt="">
+            <div class="card-body">
+                <h5 class="card-title">@obj.LaptopName</h5>
+                <p class="card-text">
+                    @obj.description
+                </p>
+                <p>Price : @obj.price</p>
+@*                <a href="#" class="btn btn-primary">Add to Cart</a>*@
+                <a type="button" href="@Url.Action("AddtoCart", "Home", new { id = @obj.Id })" >Buy</a>
+            </div>
+        </div>
+    </div>
+    @*<div class="col-lg-6 mb-4">
+        <div class="card">
+            <img class="card-img-top" src="~/Images/dell.jpg" alt="">
+
+            <div class="card-body">
+                <h5 class="card-title">@obj.LaptopName</h5>
+                <p class="card-text">
+                    @obj.description
+                </p>
+                <p>Price : @obj.price</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+                <a href="#" class="btn btn-primary">Buy</a>
+            </div>
+        </div>
+    </div>*@
+}

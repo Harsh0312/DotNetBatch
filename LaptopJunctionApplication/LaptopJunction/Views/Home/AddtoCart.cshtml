@@ -1,0 +1,19 @@
+﻿@model LaptopJunction.Models.Laptop
+<div class="container">
+    @using (Html.BeginForm()){
+        <div class="row">
+            <div class="col-lg-6">
+                <input type="hidden" name="Id" value="@Model.Id"/>
+                <img src="@Model.path" style="height:250px;width:100%"/>
+                </div>
+                <div class="col-lg-6">
+                    <h3>@Model.LaptopName</h3>
+                    <p>@Model.description</p>
+                    <p>Rs. <strong>@Model.price</strong></p>
+                <input type="number" min="1" max="10" name="qty" />
+                    <input type="submit" value="Add to Cart" class="btn btn-warning"/>
+                    </div>
+            </div>
+    }
+</div>
+<h1>CART</h1>
